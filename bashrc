@@ -33,6 +33,12 @@ if [ -d ~/.bashrc.d ]; then
 	done
 fi
 
+function lazygit() {
+	git add .
+	git commit -a -m "$1"
+	git push
+}
+
 # My aliases
 alias upd='sudo dnf update'
 alias upg='sudo dnf upgrade'
