@@ -42,3 +42,6 @@ highlight MoreThan80 ctermbg=blue guibg=blue
 
 let g:user42 = 'olnytim'
 let g:mail42 = 'yearagotomorrow@gmail.com'
+
+# to install plugings
+# curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
